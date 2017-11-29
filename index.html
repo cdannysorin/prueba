@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Películas</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/iconos.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<script src="Jquery/jquery-1.6.3.min.js"></script>
+	<script type="text/javascript" src="js/mijs1.js"></script>
+	<style>
+
+
+
+#principal{
+	
+	padding:10px 50px 10px 80px;
+	background-color:#F93;	
+	box-shadow: 10px 10px 5px 0px #999999;
+	border-radius: 80px;
+}
+
+
+</style>
+
+	
+
+</head>
+<body>
+<header>
+	<section>
+		<h1>EcuaPelis</h1>
+		<section id="menu">
+			<a href="#"><span class="icon-home3"></span> Inicio</a>
+			<a href="#"><span class="icon-profile"></span> Acerca</a>
+			<a href="#"><span class="icon-display"></span> Cartelera</a>
+			<a href="#"><span class="icon-bubble"></span> Contacto</a>
+		</section>
+	</section>
+</header>
+
+<section id="inicio">
+<center>
+	<section>
+		<h2>Liga de la Justicia</h2>
+		<p>Próximamente</p>
+		<a href="#">Ver Tráiler</a>
+	</section>
+</center>
+</section>
+
+<section id="articulos">
+<center>
+	<section>
+		<h3>Cartelera</h3>
+		<article>
+			<img src="imagenes/rapidos-y-furiosos-8.jpg">
+			<a href="#">Acción</a>
+		</article>
+		<article>
+			<img src="imagenes/hp.jpg">
+			<a href="#">Ciencia Ficción</a>
+		</article>
+		<article>
+			<img src="imagenes/ted.jpg">
+			<a href="#">Comedia</a>
+		</article>
+		<article>
+			<img src="imagenes/hachi.jpg">
+			<a href="#">Drama</a>
+		</article>
+		<article>
+			<img src="imagenes/ciudadDios.jpg">
+			<a href="#">Latinoamericanas</a>
+		</article>
+		<article>
+			<img src="imagenes/viernes13.jpg">
+			<a href="#">Terror</a>
+		</article>
+	</section>
+</center>
+</section>
+
+<section id="servicios">
+<center>
+	<section>
+		<h3>Servicios</h3>
+		<a href="#"> <span class="icon-laptop"></span> Hosting</a>
+		<a href="#"> <span class="icon-display"></span> Desarrollo Web</a>
+		<a href="#"> <span class="icon-android"></span> Servicio 2</a>
+		<a href="#"> <span class="icon-paypal"></span> Servicio 3</a>
+		<a href="#"> <span class="icon-windows"></span> Servicio </a>
+		<a href="#"> <span class="icon-mobile"></span> Servicio 5</a>
+	</section>
+</center>
+</section>
+
+<section id="contacto">
+<center>
+	<section>
+		<h3>Contacto</h3>
+		
+		
+		<form id="form_datos">
+  <table id="principal">
+    <tr>
+      <td>Nombre:</td>
+      <td><label for="nombre"></label>
+        <input type="text" name="nombre" id="nombre" value="Obligatorio nombre"></td>
+    </tr>
+    <tr>
+      <td>Dirección:</td>
+      <td><input type="text" name="direccion" id="direccion"></td>
+    </tr>
+    <tr>
+      <td>Ciudad:</td>
+      <td><input type="text" name="ciudad" id="ciudad"></td>
+    </tr>
+    <tr>
+      <td>Código Postal</td>
+      <td><label for="c_postal"></label>
+        <input type="text" name="c_postal" id="c_postal"></td>
+    </tr>
+    <tr>
+      <td>Método pago:</td>
+      <td><p>
+        <input type="radio" name="radio" id="paypal" value="paypal">
+        <label for="paypal">PayPal</label>
+      </p>
+        <p>
+          <input type="radio" name="radio" id="master" value="master">
+          <label for="master">MasterCard</label>          
+          </p>
+        <p>
+          <input type="radio" name="radio" id="visa" value="visa">
+          <label for="visa">Visa</label>
+          <br>
+        </p></td>
+    </tr>
+   
+    
+    <tr>
+      <td>Datos pago</td>
+      <td><table width="300">
+        <tr>
+          <td><label for="tarjeta" id="n_tarjeta">Nº tarjeta</label></td>
+          <td>
+            <input type="text" name="tarjeta" id="tarjeta" ></td>
+        </tr>
+        <tr>
+          <td align="left"><label for="fecha_tarjeta" id="f_tarjeta">Fecha Expiración</label></td>
+          <td>
+            <input type="text" name="fecha_tarjeta" id="fecha_tarjeta"   ></td>
+        </tr>
+        <tr>
+        <td><label for="email" id="e_mail">Email</label></td>
+        <td>
+          <input type="text" name="email" id="email"  ></td>
+        </tr>       
+       
+      </table></td>
+    </tr>
+     <tr>
+      <td><p>País:</p></td>
+      <td><p>
+        <label for="pais"></label>
+        <select name="pais" id="pais">
+          <option>España</option>
+          <option>México</option>
+          <option>Colombia</option>
+          <option>Perú</option>
+          <option>Chile</option>
+          <option>Argentina</option>
+        </select>
+     </td>
+    </tr>
+    <tr>
+    <td colspan="2" align="center">
+	<input type="submit" value="Enviar" id="comprobar"></td>
+   
+    </tr>
+  </table>
+  </form>
+		
+	</section>
+</center>
+</section>
+
+<footer>
+	<p>Copyright 2016 Daniel Echeverría</p>
+</footer>
+</body>
+</html>
