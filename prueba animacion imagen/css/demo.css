@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
     src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
@@ -7,7 +7,7 @@
          url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
 	margin:0;
@@ -34,9 +34,9 @@ address,caption,cite,code,dfn,th,var {
 	font-style:normal;
 	font-weight:normal;
 }
-ol,ul {
+/*ol,ul {
 	list-style:none;
-}
+}*/
 caption,th {
 	text-align:left;
 }
@@ -59,20 +59,20 @@ body{
 	overflow-y: scroll;
 	overflow-x: hidden;
 }
-.ie7 body{
+/*.ie7 body{
 	overflow:hidden;
-}
+}*/
 a{
 	color: #333;
 	text-decoration: none;
 }
-.container{
+/*.container{
 	position: relative;
 	text-align: center;
-}
-.clr{
+}*/
+/*.clr{
 	clear: both;
-}
+}*/
 .container > header{
 	padding: 30px 30px 10px 20px;
 	margin: 0px 20px 10px 20px;
@@ -115,13 +115,13 @@ a{
 	-webkit-box-shadow: 1px 0px 2px #000;
 	box-shadow: 1px 0px 2px #000;
 }
-.codrops-top a{
+/*.codrops-top a{
 	padding: 0px 10px;
 	letter-spacing: 1px;
 	color: #ddd;
 	display: block;
 	float: left;
-}
+}*/
 .codrops-top a:hover{
 	color: #fff;
 }
