@@ -11,32 +11,84 @@
 	<script type="text/javascript" src="js/mijs1.js"></script>
 
 	<style>
-
-
-
-#principal{
-	
-	padding:5px 100px 10px 80px;
-	background-color:#E87E0C;	
-	box-shadow: 10px 10px 5px 0px #999999;
-	border-radius: 20px;
-}
-
-.mySlides {display:none;}
-
-
-</style>
-
+	#principal{
+		
+		padding:10px 50px 10px 80px;
+		background-color:#F93;	
+		box-shadow: 10px 10px 5px 0px #999999;
+		border-radius: 80px;
+	}
+	.mySlides {display:none;}
+	</style>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="One Movies Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/contactstyle.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/faqstyle.css" type="text/css" media="all" />
+<link href="css/single.css" rel='stylesheet' type='text/css' />
+<link href="css/medile.css" rel='stylesheet' type='text/css' />
+<!-- banner-slider -->
+<link href="css/jquery.slidey.min.css" rel="stylesheet">
+<!-- //banner-slider -->
+<!-- pop-up -->
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //pop-up -->
+<!-- font-awesome icons -->
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<!-- //font-awesome icons -->
+<!-- js -->
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<!-- //js -->
+<!-- banner-bottom-plugin -->
+<link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/owl.carousel.js"></script>
+<script>
+	$(document).ready(function() { 
+		$("#owl-demo").owlCarousel({
+	 
+		  autoPlay: 3000, //Set AutoPlay to 3 seconds
+	 
+		  items : 5,
+		  itemsDesktop : [640,4],
+		  itemsDesktopSmall : [414,3]
+	 
+		});
+	 
+	}); 
+</script> 
+<!-- //banner-bottom-plugin -->
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
 
 </head>
 <body>
 <header>
 	<section>
-		<h1>EcuaPelis</h1>
+		<section class="logo">
+			<a href="index.html"><h1>ECUA<span>Pelis</span></h1></a>
+		</section>
 		<section id="menu">
-			<a href="#"><span class="icon-home3"></span> Inicio</a>
-			<a href="#cartelera"><span class="icon-display"></span> Cartelera</a>
-			<a href="#contacto"><span class="icon-bubble"></span> Contacto</a>
+			<a href="index.html"><span class="icon-home3"></span> Inicio</a>
+			<a href="info.html"><span class="icon-profile"></span> Acerca</a>
+			<a href="cartelera.html"><span class="icon-display"></span> Cartelera</a>
+			<a href="#"><span class="icon-bubble"></span> Contacto</a>
 		</section>
 	</section>
 </header>
@@ -46,61 +98,68 @@
 
 		
 		<ul class="cb-slideshow">
-            <li><span></span><div><h3></h3></div></li>
-            <li><span></span><div><h3></h3></div></li>
-            <li><span></span><div><h3></h3></div></li>
-            <li><span></span><div><h3></h3></div></li>
-            <li><span></span><div><h3></h3></div></li>
-            <li><span></span><div><h3></h3></div></li>
+            <li><span>Image 01</span><div><h3></h3></div></li>
+            <li><span>Image 02</span><div><h3></h3></div></li>
+            <li><span>Image 03</span><div><h3></h3></div></li>
+            <li><span>Image 04</span><div><h3></h3></div></li>
+            <li><span>Image 05</span><div><h3></h3></div></li>
+            <li><span>Image 06</span><div><h3></h3></div></li>
         </ul>
 		
 		<section>
-			<h2>Liga de la Justicia</h2>
-			<p>Próximamente</p>
-			<a href="#contacto">Suscríbete</a>
+			<h2> </h2>
+			<p> </p>
+			<a href="#">Ver Tráiler</a>
 		</section>
 		
 		<!--<script type="text/javascript" src="js/mijs.js"></script>-->
 	
 </center>
-
-			
-		
-		
 </section>
-
 <section id="articulos">
-<center>
-	<section>
-		<h3 name="cartelera"><a name="cartelera"></a>Cartelera</h3>
-		<article>
-			<img src="imagenes/rapidos-y-furiosos-8.jpg">
-			<a href="#">Acción</a>
-		</article>
-		<article>
-			<img src="imagenes/hp.jpg">
-			<a href="#">Ciencia Ficción</a>
-		</article>
-		<article>
-			<img src="imagenes/ted.jpg">
-			<a href="#">Comedia</a>
-		</article>
-		<article>
-			<img src="imagenes/hachi.jpg">
-			<a href="#">Drama</a>
-		</article>
-		<article>
-			<img src="imagenes/ciudadDios.jpg">
-			<a href="#">Latinoamericanas</a>
-		</article>
-		<article>
-			<img src="imagenes/viernes13.jpg">
-			<a href="#">Terror</a>
-		</article>
-	</section>
-</center>
+	<h4 class="latest-text w3_latest_text">Cartelera</h4>
+	<center>
+		<section>
+			<article>
+				<img src="imagenes/rapidos-y-furiosos-8.jpg">
+				<a href="accion.html">Acción</a>
+			</article>
+			<article>
+				<img src="imagenes/hp.jpg">
+				<a href="#">Ciencia Ficción</a>
+			</article>
+			<article>
+				<img src="imagenes/ted.jpg">
+				<a href="#">Comedia</a>
+			</article>
+			<article>
+				<img src="imagenes/hachi.jpg">
+				<a href="#">Drama</a>
+			</article>
+			<article>
+				<img src="imagenes/ciudadDios.jpg">
+				<a href="#">Latinoamericanas</a>
+			</article>
+			<article>
+				<img src="imagenes/viernes13.jpg">
+				<a href="#">Terror</a>
+			</article>
+		</section>
+	</center>
 </section>
 
+<section id="redesSociales">
+	<div class="general_social_icons">
+		<nav class="social">
+			<ul>
+				<li class="w3_twitter"><a href="#">Twitter <i class="fa fa-twitter"></i></a></li>
+				<li class="w3_facebook"><a href="#">Facebook <i class="fa fa-facebook"></i></a></li>
+				<li class="w3_dribbble"><a href="#">Dribbble <i class="fa fa-dribbble"></i></a></li>
+				<li class="w3_g_plus"><a href="#">Google+ <i class="fa fa-google-plus"></i></a></li>				  
+			</ul>
+	  </nav>
+	</div>
+</section>
 
 <section id="contacto">
 <center>
@@ -172,7 +231,7 @@
       <td><p>
         <label for="pais"></label>
         <select name="pais" id="pais">
-          <option>Ecuador</option>
+          <option>España</option>
           <option>México</option>
           <option>Colombia</option>
           <option>Perú</option>
@@ -194,7 +253,7 @@
 </section>
 
 <footer>
-	<p>Copyright 2017</p>
+	<p>Copyright 2017 Daniel Echeverría</p>
 </footer>
 
 
